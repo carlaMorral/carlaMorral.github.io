@@ -1,12 +1,622 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Carla</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo16.png">
+    <link rel="manifest" href="site.webmanifest">
+
 </head>
-<body>
-    <h1>Hello World!</h1>
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="images/logo.svg" alt="Homepage">
+            </a>
+        </div>
+
+        <div class="header-content">
+    
+            <nav class="row header-nav-wrap">
+                <ul class="header-nav">
+                    <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="About">About</a></li>
+                    <li><a class="smoothscroll" href="#services" title="Services">Academia</a></li>
+                    <li><a class="smoothscroll" href="#portfolio" title="Works">Works</a></li>
+                    <li><a class="smoothscroll" href="#contact" title="Contact us">Contact</a></li>
+                </ul>
+            </nav> <!-- end header-nav-wrap -->
+
+            <a href="assets/CV-CarlaMorralMartin.pdf" class="btn btn--stroke btn--small" download>Download CV</a>
+
+        </div> <!-- end header-content -->
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> 
+
+
+    <!-- hero
+    ================================================== -->
+    
+    <div id="particles-js"></div>
+
+    <section id="hero" class="s-hero target-section" data-parallax="scroll" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="row hero-content">
+
+            <div class="column large-full">
+
+                <h1>
+                Hello, I'm Carla Morral, <br>
+                a Computer Science <br>
+                and Mathematics student<br>.
+                </h1>
+
+                <ul class="hero-social">
+                    <li>
+                        <a href="https://www.linkedin.com/in/carla-morral-martin/" title="">Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/carlaMorral" title="">Github</a>
+                    </li>
+                </ul> <!-- end hero-social -->
+
+            </div> 
+
+        </div> <!-- end hero-content -->
+
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-link smoothscroll">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 24l-8-9h6v-15h4v15h6z"/></svg>
+            </a>
+        </div> <!-- end hero-scroll -->
+
+    </section> <!-- end s-hero -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="s-about__section s-about__section--profile">
+
+            <div class="right-vert-line"></div>
+
+            <div class="row">
+                <div class="column large-6 medium-8 tab-full">
+
+                    <div class="section-intro" data-num="01" data-aos="fade-up">
+                        <h3 class="subhead">About Me</h3>
+                        <h1 class="display-1">I'm the kind of person who isn't afraid of challenges.</h1>
+                    </div>
+
+                    <div class="profile-pic" data-aos="fade-up">
+                        <img src="images/profile.jpg" 
+                             srcset="images/profile.jpg 1x, images/profile.jpg 2x" alt="">
+                    </div>
+
+                    <h3 data-aos="fade-up">Profile</h3>
+
+                    <p data-aos="fade-up">
+                    Welcome to my space! My name is Carla and I'm a final year Computer Science and Mathematics
+                    student. For the past 4 years I have been working on amazing projects which have helped
+                    grow as a Computer Scientist and as a Mathematitian, allways willing to shape up the world. 
+                    </p>
+
+                </div>
+            </div>
+
+        </div> <!-- end s-about__section--profile -->
+
+        <div class="s-about__section">
+
+            <div class="row">
+                <div class="column">
+                    <h3 data-aos="fade-up">Education</h3>
+                </div>
+            </div>
+
+            <div class="row block-large-1-2 block-900-full work-positions">
+
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">University of Barcelona</span>
+                                <span class="position__pos">Computer Science, BS</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                September 2017 - June 2022
+                            </div>
+                        </div>
+
+                        <p>
+                         
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">University of Barcelona</span>
+                                <span class="position__pos">Mathematics, BS</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                September 2017 - June 2022
+                            </div>
+                        </div>
+
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+
+            </div> <!-- work positions -->
+
+        </div> <!-- end s-about__section -->
+
+        <div class="s-about__section">
+
+            <div class="row">
+                <div class="column">
+                    <h3 data-aos="fade-up">Career</h3>
+                </div>
+            </div>
+
+            <div class="row block-large-1-2 block-900-full work-positions">
+
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Amazon</span>
+                                <span class="position__pos">Software Development Engineer Intern</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                June 2021 - September 2021
+                            </div>
+                        </div>
+
+                        <p>
+                            Designed and integrated a workflow to generate themes for the Amazon books. 
+                            Created an optimal color palette to fit the book's theme using quantization 
+                            algorithms and machine learning. Also built a Video QA system PoC and proved that Video 
+                            QA can be automated, by which a lot of money could be saved.
+                            <br>
+                            Tech stack: Python, Typescript, Java, AWS, AWS CDK, OpenCV.
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Twilio</span>
+                                <span class="position__pos">Software Engineer Intern</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                July 2020 - September 2020
+                            </div>
+                        </div>
+
+                        <p>
+                            Designed, developed, tested and deployed an end to end internal chatbot 
+                            application that provides insights and troubleshooting into Twilio's media recordings 
+                            data. This tool is helping the Twilio TSEs ease their work when dealing with customers' issues. 
+                            <br>
+                            - Tech stack: Python, Flask, Bash, Docker, and AWS
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">University of Barcelona</span>
+                                <span class="position__pos">Undergraduate Research Assistant</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                July 2019 - March 2020
+                            </div>
+                        </div>
+
+                        <p>
+                            Helped to organize 2020 Looking at People Challenge FG Identity-preserved human detection, 
+                            a challenge for people to detect people in images and videos. Helped in the development 
+                            of a system that detects people in images and videos based on their body parts. Published 
+                            my first scientific paper at the IEEE CVPR conference.
+                            <br>
+                            - Tech stack: Python, OpenCV.
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+
+            </div> <!-- work positions -->
+
+        </div> <!-- end s-about__section -->
+
+    </section> <!-- end s-about -->
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services target-section h-dark-bg">
+        
+        <div class="row s-services__content">
+
+            <div class="vert-line"></div>
+
+            <div class="column large-6 s-services__leftcol">
+                <div class="section-intro" data-num="02" data-aos="fade-up">
+                    <h3 class="subhead">Expertise</h3>
+
+                    <h1 class="display-1">
+                    Academia and achievements.
+                    </h1>
+                </div>
+
+                <p class="lead" data-aos="fade-up">
+                During my academic career I have developed both technical and soft skills. The first ones have 
+                resulted in scholarships and to beeing able to attend events and conferences. And my soft skills
+                have helped me to work efficiently, both on my own and with a team of people.
+                </p>
+            </div> <!-- end  s-services--leftcol -->
+
+            <div class="column large-6">
+                <ul class="services-list" data-aos="fade-up">
+                    <li class="services-list__item is-active">
+                        <div class="services-list__item-header">
+                            <h5>Scholarships</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                            During my bachelor degrees I have completed thirteen courses with honors.
+                            This means that I received a full tuition scholarship to complete thirteen 
+                            more courses.
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Research and publications</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                            On 2020 I had the opportunity to be involved in a real research group for the first 
+                            time and publish my first scientific paper. On the same year, I could write my first
+                            blog post on the <a href="https://www.twilio.com/blog/python-flask-microsoft-azure-whatsapp-translator">Twilio blog</a>. 
+                            Later on, in 2021 and as an Amazon intern, I could
+                            work on a very research-oriented project, in which I had the opportunity to work with machine learning
+                            models and on the maths behind color theory. I am currently working on my bachelors' capstone project
+                            with title <i>Synthetic to real image generation using GANs</i>.
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Events</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                            I have been invited to a number of events and hackathons organized by companies such as Google, Facebook and Bloomberg.
+                            On July 2021 I was one of the 36 selected people out of a pool of thousands of EMEA students, to attend Google's Inside Look program.
+                            Similarly, on 2020 I was selected to attend the Bloomberg's Women in Technology program. 
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Athletics</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                            Before I started my bachelor degrees I was an 800m athlete. I won six Spanish national
+                            medals on youth categories and also attended the Youth Olympic Games representing Spain, held in Tbilisi in 2015. 
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                </ul> <!-- end services-list -->
+            </div>
+
+        </div> <!-- s-services__content -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- portfolio
+    ================================================== -->
+    <section id="portfolio" class="s-portfolio target-section">
+
+        <div class="row s-portfolio__header">
+            <div class="column large-6 medium-8 tab-full">
+                <div class="section-intro" data-num="03" data-aos="fade-up">
+                    <h3 class="subhead">Portfolio</h3>
+                    <h1 class="display-1">
+                        A selection of recent projects I have worked on.
+                    </h1>
+                </div>
+            </div>
+        </div> <!-- s-porfolio__header -->
+
+        <div class="row s-porfolio__list block-large-1-2 block-tab-full collapse">
+
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/raytracing.png" title="Ray Tracing" data-size="1050x700">
+                            <img src="images/portfolio/raytracing.png" 
+                                 srcset="images/portfolio/raytracing.png 1x, images/portfolio/raytracing@2x.png 2x"alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">C++, OpenGL</div>
+                        <h4 class="folio-item__title">Ray Tracing</h4>
+                    </div>
+                    <a href="https://github.com/GiVD2020/raytracing-f01" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/nau.png" title="Building Blocks" data-size="1050x700">
+                            <img src="images/portfolio/nau.png" 
+                                 srcset="images/portfolio/nau.png 1x, images/portfolio/nau@2x.png 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">C++, GLSL, OpenGL</div>
+                        <h4 class="folio-item__title">Z-Buffer</h4>
+                    </div>
+                    <a href="https://github.com/carlaMorral/rendergpu-f01-1" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/class.png" Title="Shout and Jump" data-size="1050x700">
+                            <img src="images/portfolio/class.png" 
+                                 srcset="images/portfolio/class.png 1x, images/portfolio/class.png 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Java</div>
+                        <h4 class="folio-item__title">The Monkey Island</h4>
+                    </div>
+                    <a href="https://github.com/carlaMorral/TheMonkeyIsland" title="Project Link (TBD)" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>The Monkey Island is a game implemented using TCP sockets. You can play both on your own or connect with a friend.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/oloide.png" title="Sand Dunes" data-size="1050x700">
+                            <img src="images/portfolio/oloide.png" 
+                                 srcset="images/portfolio/oloide.png 1x, images/portfolio/oloide.png 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Differential Geometry</div>
+                        <h4 class="folio-item__title">Developable surfaces</h4>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1aTXT7LkVXjrvlYuMHgItFfqy1xkAKSDf/view?usp=sharing" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>This project gives an insight into what are the developable surfaces. It's in Spanish.</p>
+                    </div>
+                </div>
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/concert.jpeg" title="Sand Dunes" data-size="1050x700">
+                            <img src="images/portfolio/concert.jpeg" 
+                                 srcset="images/portfolio/concert.jpeg 1x, images/portfolio/concert@2x.jpeg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Python, Flask, Javascript, Vue</div>
+                        <h4 class="folio-item__title">Showaholic.</h4>
+                    </div>
+                    <a href="https://f9-ticketmonster.herokuapp.com/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Showaholic is a website to buy tickets for shows. You can register and login.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/med.png" title="Sand Dunes" data-size="1050x700">
+                            <img src="images/portfolio/med.png" 
+                                 srcset="images/portfolio/med.png 1x, images/portfolio/med@2x.png 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Javascript, Vue</div>
+                        <h4 class="folio-item__title">MedServer</h4>
+                    </div>
+                    <a href="https://peaverin.github.io/medserver/index.html#/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>MedServer is the frontend of a website to buy pharmacy products. The website is in Catalan.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/trans.jpeg" title="The Lamp" data-size="1050x700">
+                            <img src="images/portfolio/trans.jpeg" 
+                                 srcset="images/portfolio/trans.jpeg 1x, images/portfolio/trans@2x.jpeg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Python, Flask, Microsoft Azure</div>
+                        <h4 class="folio-item__title">Walphabet</h4>
+                    </div>
+                    <a href="https://www.twilio.com/blog/python-flask-microsoft-azure-whatsapp-translator" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Whalphabet is a translator bot. You can talk to it through Whatsapp.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+
+        </div> <!-- folio-list -->
+
+    </section> <!-- end portfolio -->
+
+
+    
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer h-dark-bg" id="contact">
+        
+        <div class="right-vert-line"></div>
+
+        <div class="row s-footer__main">
+            <div class="column large-6">
+                <div class="section-intro" data-aos="fade-up">
+                    <h3 class="subhead">Get In Touch</h3>
+
+                    <h1 class="display-1">
+                    Do you need anything else from me? Send me a message.
+                    </h1>
+                </div>
+
+                <div class="footer-email-us">
+                    <a href="mailto:carla.morral@gmail.com" class="btn btn--primary h-full-width">Let's Talk</a>
+                </div>
+            </div>
+
+            <div class="column large-5">
+                <div class="footer-contacts">
+                    <div class="footer-contact-block" data-aos="fade-up">
+                        <h5 class="footer-contact-block__header">
+                            Email
+                        </h5>
+                        <p class="footer-contact-block__content">
+                            <a href="mailto:carla.morral@gmail.com">carla.morral@gmail.com</a>
+                        </p>
+                    </div> <!-- end footer-contact-block -->
+                    <br>
+                    <div class="footer-contact-block" data-aos="fade-up">
+                        <h5 class="footer-contact-block__header">
+                            Social
+                        </h5>
+                        <ul class="footer-contact-block__list">
+                            <li><a href="https://www.linkedin.com/in/carla-morral-martin/">Linkedin</a></li>
+                            <li><a href="https://github.com/carlaMorral">Github</a></li>
+                        </ul>
+                    </div> <!-- end footer-contact-block -->
+                </div>
+            </div>
+        </div> <!-- end s-footer__main -->
+
+        <div class="row s-footer__bottom">
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
+                </a>
+            </div> <!-- end ss-go-top -->
+        </div> <!-- end s-footer__bottom -->
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
-</html>
